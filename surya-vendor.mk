@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml \
     vendor/xiaomi/surya/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml \
     vendor/xiaomi/surya/proprietary/system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml \
+    vendor/xiaomi/surya/proprietary/system/etc/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt \
     vendor/xiaomi/surya/proprietary/system/lib/libmisys_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmisys_jni.so \
     vendor/xiaomi/surya/proprietary/system/lib/vendor.xiaomi.hardware.misys@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@1.0.so \
     vendor/xiaomi/surya/proprietary/system/lib/vendor.xiaomi.hardware.misys@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.xiaomi.hardware.misys@2.0.so \
