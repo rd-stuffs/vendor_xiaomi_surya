@@ -332,17 +332,12 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0-impl \
     vendor.xiaomi.hardware.misys@3.0-impl \
     vendor.xiaomi.hardware.misys@4.0-impl \
-    libAlacSwDec \
-    libApeSwDec \
-    libFlacSwDec \
     libI420colorconvert \
     libOmxAacDec \
     libOmxAlacDec \
-    libOmxAlacDecSw \
     libOmxAmrDec \
     libOmxAmrwbplusDec \
     libOmxApeDec \
-    libOmxApeDecSw \
     libOmxEvrcDec \
     libOmxQcelp13Dec \
     libOmxVpp \
