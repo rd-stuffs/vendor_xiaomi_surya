@@ -367,6 +367,7 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libcdsp_default_listener \
     libcdsprpc \
+    libcdsprpc_system \
     libcirrusspkrprot \
     libcomprcapture \
     libdiag \
