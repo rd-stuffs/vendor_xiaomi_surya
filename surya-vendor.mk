@@ -554,14 +554,14 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper \
     libmmcamera_cac3 \
     com.qualcomm.qti.dpm.api@1.0_vendor \
-    com.qualcomm.qti.imscmservice@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
+    com.qualcomm.qti.imscmservice@1.0_vendor \
+    com.qualcomm.qti.imscmservice@2.0_vendor \
+    com.qualcomm.qti.imscmservice@2.1_vendor \
+    com.qualcomm.qti.imscmservice@2.2_vendor \
+    com.qualcomm.qti.uceservice@2.0_vendor \
+    com.qualcomm.qti.uceservice@2.1_vendor \
+    com.qualcomm.qti.uceservice@2.2_vendor \
+    com.qualcomm.qti.uceservice@2.3_vendor \
     deviceInfoServiceModule \
     ese_spi_nxp \
     hal_libnfc \
