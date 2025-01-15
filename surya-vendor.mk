@@ -744,7 +744,6 @@ PRODUCT_PACKAGES += \
     unnhal-acc-adreno \
     unnhal-acc-common \
     unnhal-acc-hvx \
-    vendor.display.postproc@1.0 \
     vendor.nxp.hardware.nfc@1.0_vendor \
     vendor.nxp.hardware.nfc@1.1_vendor \
     vendor.nxp.nxpese@1.0_vendor \

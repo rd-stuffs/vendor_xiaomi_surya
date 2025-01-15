@@ -8,6 +8,7 @@ soong_namespace {
         "vendor/qcom/common/system/display",
         "vendor/qcom/common/vendor/adreno-r",
         "vendor/qcom/common/vendor/display/4.14",
+        "vendor/qcom/common/vendor/display",
         "vendor/qcom/common/vendor/gps-legacy",
         "vendor/qcom/common/vendor/media-legacy",
 	],
@@ -8072,23 +8073,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.postproc@1.0",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.display.postproc@1.0.so"],
-			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
-		},
-	},
-	compile_multilib: "64",
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
 	name: "vendor.nxp.hardware.nfc@1.0_vendor",
 	stem: "vendor.nxp.hardware.nfc@1.0",
 	owner: "xiaomi",
@@ -10082,7 +10066,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.display.color@1.0-service"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libbinder", "libhardware_legacy", "libhardware", "libhidlbase", "vendor.display.color@1.0", "vendor.display.color@1.1", "vendor.display.color@1.2", "vendor.display.color@1.3", "vendor.display.postproc@1.0", "libsdm-disp-vndapis", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libbinder", "libhardware_legacy", "libhardware", "libhidlbase", "vendor.display.color@1.0_vendor", "vendor.display.color@1.1_vendor", "vendor.display.color@1.2_vendor", "vendor.display.color@1.3_vendor", "vendor.display.postproc@1.0_vendor", "libsdm-disp-vndapis", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10501,7 +10485,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/ppd"],
-			shared_libs: ["libcutils", "liblog", "libhidlbase", "vendor.display.postproc@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libhidlbase", "vendor.display.postproc@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
