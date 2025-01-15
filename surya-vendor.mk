@@ -429,8 +429,8 @@ PRODUCT_PACKAGES += \
     libshoebox \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
-    vendor.qti.hardware.camera.device@1.0 \
-    vendor.qti.hardware.camera.device@3.5 \
+    vendor.qti.hardware.camera.device@1.0_vendor \
+    vendor.qti.hardware.camera.device@3.5_vendor \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
