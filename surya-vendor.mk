@@ -342,6 +342,7 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Dec \
     libOmxVpp \
     libOmxWmaDec \
+    libQSEEComAPI \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -387,6 +388,7 @@ PRODUCT_PACKAGES += \
     libmm-color-convertor \
     libmm-hdcpmgr \
     libmmosal \
+    libqcbor \
     libqcci_legacy \
     libqdi \
     libqdp \
@@ -586,7 +588,6 @@ PRODUCT_PACKAGES += \
     libHalSuperSensorServer \
     libMegviiFacepp-0.5.2 \
     libOmxG711Dec \
-    libQSEEComAPI \
     libQTEEConnector_listener \
     libQTEEConnector_vendor \
     libSNPE \
@@ -678,7 +679,6 @@ PRODUCT_PACKAGES += \
     libpdnotifier \
     libperipheral_client \
     libpvr \
-    libqcbor \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
