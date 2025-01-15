@@ -332,6 +332,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0-impl \
     vendor.xiaomi.hardware.misys@3.0-impl \
     vendor.xiaomi.hardware.misys@4.0-impl \
+    libGPreqcancel_svc \
     libI420colorconvert \
     libOmxAacDec \
     libOmxAlacDec \
@@ -360,6 +361,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
     libbtnv \
+    libcamera_nn_stub \
     libcamxfdalgov7 \
     libcamxfdalgov8 \
     libcamxfdengine \
@@ -369,6 +371,7 @@ PRODUCT_PACKAGES += \
     libcdsp_default_listener \
     libcdsprpc \
     libcdsprpc_system \
+    libcheckpid \
     libcirrusspkrprot \
     libcomprcapture \
     libdiag \
@@ -381,6 +384,7 @@ PRODUCT_PACKAGES += \
     libhdmipassthru \
     libhfp \
     libidl \
+    liblogwrap_vendor \
     libmdmdetect \
     libmdsprpc \
     libminkdescriptor \
@@ -399,10 +403,12 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqtigef \
     libsdsprpc \
     libsndmonitor \
+    libsnsapi \
     libsoc_helper \
     libsoc_helper_jni \
     libspkrprot \
@@ -426,6 +432,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@3.5 \
     vendor.qti.hardware.dsp@1.0 \
+    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
     vendor.xiaomi.hardware.misys@1.0_vendor \
@@ -585,7 +592,6 @@ PRODUCT_PACKAGES += \
     libGPQTEEC_vendor \
     libGPTEE_vendor \
     libGPreqcancel \
-    libGPreqcancel_svc \
     libHalSuperSensorServer \
     libMegviiFacepp-0.5.2 \
     libOmxG711Dec \
@@ -624,9 +630,7 @@ PRODUCT_PACKAGES += \
     libc++_shared \
     libcacertclient \
     libcamera_dirty \
-    libcamera_nn_stub \
     libcamera_scene \
-    libcheckpid \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -654,7 +658,6 @@ PRODUCT_PACKAGES += \
     libkeymasterdeviceutils \
     libkeymasterprovision \
     libkeymasterutils \
-    liblogwrap_vendor \
     liblqe \
     libmegface \
     libmiStereoFactoryRemapLib \
@@ -684,7 +687,6 @@ PRODUCT_PACKAGES += \
     libqcrilFramework \
     libqcrildatactl \
     libqisl \
-    libqmi_legacy \
     libqrtr \
     libqsocket \
     libqtikeymaster4 \
@@ -710,7 +712,6 @@ PRODUCT_PACKAGES += \
     libsns_fastRPC_util \
     libsns_low_lat_stream_stub \
     libsns_registry_skel \
-    libsnsapi \
     libsnsdiaglog \
     libssc \
     libssc_default_listener \
@@ -774,7 +775,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qseecom@1.0 \
-    vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
     vendor.qti.hardware.radio.ims@1.0 \
