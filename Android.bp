@@ -4803,7 +4803,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0",
+	name: "com.qualcomm.qti.dpm.api@1.0_vendor",
+	stem: "com.qualcomm.qti.dpm.api@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -6300,7 +6301,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libdpmqmihal.so"],
-			shared_libs: ["libhidlbase", "liblog", "libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "liblog", "libcutils", "libbase", "libutils", "libhardware_legacy", "libhardware", "com.qualcomm.qti.dpm.api@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9894,7 +9895,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/dpmQmiMgr"],
-			shared_libs: ["libcutils", "liblog", "libbase", "libutils", "libhardware_legacy", "libhardware", "libhidlbase", "libqmi_cci", "libqmi_client_helper", "libqmiservices", "libdpmqmihal", "com.qualcomm.qti.dpm.api@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libbase", "libutils", "libhardware_legacy", "libhardware", "libhidlbase", "libqmi_cci", "libqmi_client_helper", "libqmiservices", "libdpmqmihal", "com.qualcomm.qti.dpm.api@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
