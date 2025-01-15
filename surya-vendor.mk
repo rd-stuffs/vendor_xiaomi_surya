@@ -391,7 +391,7 @@ PRODUCT_PACKAGES += \
     libmiracast \
     libmm-color-convertor \
     libmm-hdcpmgr \
-    libmmosal \
+    libmmosal_vendor \
     libqcbor \
     libqcci_legacy \
     libqdi \
