@@ -425,10 +425,10 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.device@3.5 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
+    vendor.xiaomi.hardware.misys@1.0_vendor \
+    vendor.xiaomi.hardware.misys@2.0_vendor \
+    vendor.xiaomi.hardware.misys@3.0_vendor \
+    vendor.xiaomi.hardware.misys@4.0_vendor \
     libFileMux_proprietary \
     libOmxDsdDec \
     libadm \

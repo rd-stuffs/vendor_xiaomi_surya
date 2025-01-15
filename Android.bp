@@ -443,11 +443,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so"],
-			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so"],
-			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -465,11 +465,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so"],
-			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@2.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@2.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so"],
-			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@2.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@2.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -487,11 +487,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so"],
-			shared_libs: ["libhidlbase", "libcutils", "libutils", "liblog", "libcheckpid", "liblogwrap_vendor", "libhidlmemory", "vendor.xiaomi.hardware.misys@3.0", "android.hidl.memory@1.0", "android.hidl.allocator@1.0", "vendor.xiaomi.hardware.misys@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libcutils", "libutils", "liblog", "libcheckpid", "liblogwrap_vendor", "libhidlmemory", "vendor.xiaomi.hardware.misys@3.0_vendor", "android.hidl.memory@1.0", "android.hidl.allocator@1.0", "vendor.xiaomi.hardware.misys@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so"],
-			shared_libs: ["libhidlbase", "libcutils", "libutils", "liblog", "libcheckpid", "liblogwrap_vendor", "libhidlmemory", "vendor.xiaomi.hardware.misys@3.0", "android.hidl.memory@1.0", "android.hidl.allocator@1.0", "vendor.xiaomi.hardware.misys@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libcutils", "libutils", "liblog", "libcheckpid", "liblogwrap_vendor", "libhidlmemory", "vendor.xiaomi.hardware.misys@3.0_vendor", "android.hidl.memory@1.0", "android.hidl.allocator@1.0", "vendor.xiaomi.hardware.misys@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -509,11 +509,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so"],
-			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@4.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@4.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so"],
-			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@4.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libutils", "liblog", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@4.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -2482,7 +2482,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.misys@1.0",
+	name: "vendor.xiaomi.hardware.misys@1.0_vendor",
+	stem: "vendor.xiaomi.hardware.misys@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2503,7 +2504,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.misys@2.0",
+	name: "vendor.xiaomi.hardware.misys@2.0_vendor",
+	stem: "vendor.xiaomi.hardware.misys@2.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2511,11 +2513,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.misys@2.0.so"],
-			shared_libs: ["vendor.xiaomi.hardware.misys@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.misys@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so"],
-			shared_libs: ["vendor.xiaomi.hardware.misys@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.misys@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -2524,7 +2526,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.misys@3.0",
+	name: "vendor.xiaomi.hardware.misys@3.0_vendor",
+	stem: "vendor.xiaomi.hardware.misys@3.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2532,11 +2535,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.misys@3.0.so"],
-			shared_libs: ["android.hidl.allocator@1.0", "android.hidl.memory.block@1.0", "android.hidl.memory.token@1.0", "vendor.xiaomi.hardware.misys@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hidl.allocator@1.0", "android.hidl.memory.block@1.0", "android.hidl.memory.token@1.0", "vendor.xiaomi.hardware.misys@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so"],
-			shared_libs: ["android.hidl.allocator@1.0", "android.hidl.memory.block@1.0", "android.hidl.memory.token@1.0", "vendor.xiaomi.hardware.misys@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hidl.allocator@1.0", "android.hidl.memory.block@1.0", "android.hidl.memory.token@1.0", "vendor.xiaomi.hardware.misys@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -2545,7 +2548,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.misys@4.0",
+	name: "vendor.xiaomi.hardware.misys@4.0_vendor",
+	stem: "vendor.xiaomi.hardware.misys@4.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2553,11 +2557,11 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/vendor.xiaomi.hardware.misys@4.0.so"],
-			shared_libs: ["vendor.xiaomi.hardware.misys@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.misys@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so"],
-			shared_libs: ["vendor.xiaomi.hardware.misys@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.xiaomi.hardware.misys@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
@@ -5976,7 +5980,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcheckpid.so"],
-			shared_libs: ["libhidlbase", "libcutils", "libutils", "liblog", "liblogwrap_vendor", "vendor.xiaomi.hardware.misys@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase", "libcutils", "libutils", "liblog", "liblogwrap_vendor", "vendor.xiaomi.hardware.misys@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10142,7 +10146,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "vendor.xiaomi.hardware.misys@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "vendor.xiaomi.hardware.misys@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10160,7 +10164,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@2.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@2.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10178,7 +10182,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service"],
-			shared_libs: ["liblog", "liblogwrap_vendor", "libcheckpid", "libbase", "libutils", "libcutils", "libhardware", "libhidlbase", "libhidlmemory", "android.hidl.memory@1.0", "android.hidl.allocator@1.0", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@2.0", "vendor.xiaomi.hardware.misys@3.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "liblogwrap_vendor", "libcheckpid", "libbase", "libutils", "libcutils", "libhardware", "libhidlbase", "libhidlmemory", "android.hidl.memory@1.0", "android.hidl.allocator@1.0", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@2.0_vendor", "vendor.xiaomi.hardware.misys@3.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -10196,7 +10200,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service"],
-			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "vendor.xiaomi.hardware.misys@1.0", "vendor.xiaomi.hardware.misys@4.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "vendor.xiaomi.hardware.misys@1.0_vendor", "vendor.xiaomi.hardware.misys@4.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
