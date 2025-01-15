@@ -5042,7 +5042,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/camera.qcom.so"],
-			shared_libs: ["libc++", "libcutils", "liblog", "libcdsprpc", "libqdMetaData", "libsnsapi", "libqmi_common_so", "libqmi_cci", "libqmi_encdec", "libprotobuf-cpp-full-3.9.1-vendorcompat", "libhardware", "libcamera_metadata", "libcamxfdengine", "libcamxstatscore", "libsync", "libmegface", "libMegviiFacepp-0.5.2", "libz", "libdl", "libc", "libm", ],
+			shared_libs: ["libc++", "libcutils", "liblog", "libcdsprpc", "libqdMetaData", "libsnsapi", "libqmi_common_so", "libqmi_cci", "libqmi_encdec", "libprotobuf-cpp-full-3.9.1-vendorcompat", "libhardware", "libcamera_metadata", "libcamxfdengine", "libcamxstatscore", "libsync", "libmegface_vendor", "libMegviiFacepp-0.5.2", "libz", "libdl", "libc", "libm", ],
 		},
 	},
 	compile_multilib: "64",
@@ -5510,7 +5510,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libMegviiFacepp-0.5.2.so"],
-			shared_libs: ["libmegface", "libc", "libm", "libdl", "liblog", "libEGL", "libGLESv2", ],
+			shared_libs: ["libmegface_vendor", "libc", "libm", "libdl", "liblog", "libEGL", "libGLESv2", ],
 		},
 	},
 	compile_multilib: "64",
@@ -6624,7 +6624,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libmegface",
+	name: "libmegface_vendor",
+	stem: "libmegface",
 	owner: "xiaomi",
 	strip: {
 		none: true,
