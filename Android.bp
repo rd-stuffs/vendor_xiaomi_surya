@@ -4979,7 +4979,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/ese_spi_nxp.so"],
-			shared_libs: ["android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "libcutils", "libhardware", "libhidlbase", "libutils", "liblog", "libbase", "vendor.nxp.nxpese@1.0", "vendor.nxp.nxpnfc@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "libcutils", "libhardware", "libhidlbase", "libutils", "liblog", "libbase", "vendor.nxp.nxpese@1.0_vendor", "vendor.nxp.nxpnfc@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -4996,7 +4996,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hal_libnfc.so"],
-			shared_libs: ["liblog", "libhardware", "libpower", "libchrome", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "vendor.nxp.hardware.nfc@1.0", "vendor.nxp.hardware.nfc@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libhardware", "libpower", "libchrome", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "vendor.nxp.hardware.nfc@1.0_vendor", "vendor.nxp.hardware.nfc@1.1_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7897,7 +7897,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so"],
-			shared_libs: ["libbase", "libcutils", "libhwbinder", "libhardware", "libhardware_legacy", "libhidlbase", "libhidltransport", "liblog", "libutils", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "android.hardware.secure_element@1.0", "ese_spi_nxp", "vendor.nxp.nxpese@1.0", "vendor.nxp.hardware.nfc@1.0", "vendor.nxp.hardware.nfc@1.1", "hal_libnfc", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbase", "libcutils", "libhwbinder", "libhardware", "libhardware_legacy", "libhidlbase", "libhidltransport", "liblog", "libutils", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "android.hardware.secure_element@1.0", "ese_spi_nxp", "vendor.nxp.nxpese@1.0_vendor", "vendor.nxp.hardware.nfc@1.0_vendor", "vendor.nxp.hardware.nfc@1.1_vendor", "hal_libnfc", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8076,7 +8076,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.nxp.hardware.nfc@1.0",
+	name: "vendor.nxp.hardware.nfc@1.0_vendor",
+	stem: "vendor.nxp.hardware.nfc@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -8093,7 +8094,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.nxp.hardware.nfc@1.1",
+	name: "vendor.nxp.hardware.nfc@1.1_vendor",
+	stem: "vendor.nxp.hardware.nfc@1.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -8101,7 +8103,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.1.so"],
-			shared_libs: ["vendor.nxp.hardware.nfc@1.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.nxp.hardware.nfc@1.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8110,7 +8112,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.nxp.nxpese@1.0",
+	name: "vendor.nxp.nxpese@1.0_vendor",
+	stem: "vendor.nxp.nxpese@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -8127,7 +8130,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.nxp.nxpnfc@1.0",
+	name: "vendor.nxp.nxpnfc@1.0_vendor",
+	stem: "vendor.nxp.nxpnfc@1.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -10100,7 +10104,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service"],
-			shared_libs: ["nfc_nci.nqx.default.hw", "libhidlbase", "libutils", "liblog", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "vendor.nxp.hardware.nfc@1.0", "vendor.nxp.hardware.nfc@1.1", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["nfc_nci.nqx.default.hw", "libhidlbase", "libutils", "liblog", "android.hardware.nfc@1.0", "android.hardware.nfc@1.1", "android.hardware.nfc@1.2", "vendor.nxp.hardware.nfc@1.0_vendor", "vendor.nxp.hardware.nfc@1.1_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
