@@ -434,7 +434,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.xiaomi.hardware.misys@1.0_vendor \
     vendor.xiaomi.hardware.misys@2.0_vendor \
     vendor.xiaomi.hardware.misys@3.0_vendor \
