@@ -5791,7 +5791,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libalRnBRT_GL_GBWRAPPER.so"],
-			shared_libs: ["libui", "liblog", "libGLESv2", "libEGL", "libutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libui_shim", "libui", "liblog", "libGLESv2", "libEGL", "libutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
