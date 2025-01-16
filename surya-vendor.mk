@@ -772,7 +772,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.embmssl@1.1-adapter-helper_vendor \
     vendor.qti.hardware.embmssl@1.1_vendor \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.mwqemadapter@1.0 \
+    vendor.qti.hardware.mwqemadapter@1.0_vendor \
     vendor.qti.hardware.qseecom@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
     vendor.qti.hardware.radio.atcmdfwd@1.0 \
