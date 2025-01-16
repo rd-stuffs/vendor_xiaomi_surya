@@ -808,14 +808,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.slmadapter@1.0_vendor \
     vendor.qti.hardware.soter@1.0 \
     vendor.qti.hardware.tui_comm@1.0 \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
+    vendor.qti.ims.callcapability@1.0_vendor \
+    vendor.qti.ims.callinfo@1.0_vendor \
+    vendor.qti.ims.factory@1.0_vendor \
+    vendor.qti.ims.factory@1.1_vendor \
+    vendor.qti.ims.rcsconfig@1.0_vendor \
+    vendor.qti.ims.rcsconfig@1.1_vendor \
+    vendor.qti.ims.rcsconfig@2.0_vendor \
+    vendor.qti.ims.rcsconfig@2.1_vendor \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
