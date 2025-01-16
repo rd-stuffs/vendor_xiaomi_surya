@@ -818,8 +818,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.1_vendor \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
-    vendor.qti.latency@2.0 \
-    vendor.qti.latency@2.1 \
+    vendor.qti.latency@2.0_vendor \
+    vendor.qti.latency@2.1_vendor \
     capi_v2_aptX_CLHDADV_Encoder \
     capi_v2_aptX_CLHDAD_Speech_Decoder \
     capi_v2_aptX_Classic \

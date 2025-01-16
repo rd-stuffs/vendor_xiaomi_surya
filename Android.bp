@@ -6159,7 +6159,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libcne.so"],
-			shared_libs: ["libcutils", "liblog", "libdiag", "libnetutils", "libutils", "libcneapiclient", "libqmiservices", "libqmi_cci", "libqti_vndfwk_detect", "libhardware_legacy", "libhidlbase", "libnl", "libidl", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.latency@1.0_vendor", "vendor.qti.hardware.data.lce@1.0_vendor", "libandroid_net", "vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.factory@2.2_vendor", "vendor.qti.data.factory@2.3_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0", "vendor.qti.latency@2.1", "vendor.qti.hardware.mwqemadapter@1.0_vendor", "vendor.qti.data.mwqem@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcutils", "liblog", "libdiag", "libnetutils", "libutils", "libcneapiclient", "libqmiservices", "libqmi_cci", "libqti_vndfwk_detect", "libhardware_legacy", "libhidlbase", "libnl", "libidl", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.latency@1.0_vendor", "vendor.qti.hardware.data.lce@1.0_vendor", "libandroid_net", "vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.factory@2.2_vendor", "vendor.qti.data.factory@2.3_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0_vendor", "vendor.qti.latency@2.1_vendor", "vendor.qti.hardware.mwqemadapter@1.0_vendor", "vendor.qti.data.mwqem@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -7792,7 +7792,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libwms.so"],
-			shared_libs: ["libcne", "libqmiservices", "libqmi_cci", "liblog", "libcneoplookup", "libandroid_net", "libutils", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.latency@1.0_vendor", "vendor.qti.latency@2.0", "vendor.qti.hardware.mwqemadapter@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libcne", "libqmiservices", "libqmi_cci", "liblog", "libcneoplookup", "libandroid_net", "libutils", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.latency@1.0_vendor", "vendor.qti.latency@2.0_vendor", "vendor.qti.hardware.mwqemadapter@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8155,7 +8155,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so"],
-			shared_libs: ["vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.latency@2.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.latency@2.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8173,7 +8173,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so"],
-			shared_libs: ["vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.slm@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.slm@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8191,7 +8191,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.2.so"],
-			shared_libs: ["vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.mwqem@1.0_vendor", "vendor.qti.data.slm@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.mwqem@1.0_vendor", "vendor.qti.data.slm@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -8209,7 +8209,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.data.factory@2.3.so"],
-			shared_libs: ["vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.factory@2.2_vendor", "vendor.qti.data.mwqem@1.0_vendor", "vendor.qti.data.slm@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.lce@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.factory@2.2_vendor", "vendor.qti.data.mwqem@1.0_vendor", "vendor.qti.data.slm@1.0_vendor", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.dynamicdds@1.0_vendor", "vendor.qti.hardware.data.lce@1.0_vendor", "vendor.qti.hardware.data.qmi@1.0_vendor", "vendor.qti.ims.rcsconfig@1.0_vendor", "vendor.qti.ims.rcsconfig@1.1_vendor", "vendor.qti.latency@2.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9398,7 +9398,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.latency@2.0",
+	name: "vendor.qti.latency@2.0_vendor",
+	stem: "vendor.qti.latency@2.0",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9415,7 +9416,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.latency@2.1",
+	name: "vendor.qti.latency@2.1_vendor",
+	stem: "vendor.qti.latency@2.1",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -9423,7 +9425,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/vendor.qti.latency@2.1.so"],
-			shared_libs: ["vendor.qti.latency@2.0", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["vendor.qti.latency@2.0_vendor", "libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
@@ -9935,7 +9937,7 @@ cc_prebuilt_binary {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/bin/cnd"],
-			shared_libs: ["libdiag", "libcutils", "liblog", "libnetutils", "libqti_vndfwk_detect", "libutils", "libcne", "libcneapiclient", "libqmiservices", "libhidlbase", "libandroid_net", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.latency@1.0_vendor", "vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.factory@2.2_vendor", "vendor.qti.data.factory@2.3_vendor", "vendor.qti.latency@2.0", "vendor.qti.latency@2.1", "vendor.qti.hardware.mwqemadapter@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libdiag", "libcutils", "liblog", "libnetutils", "libqti_vndfwk_detect", "libutils", "libcne", "libcneapiclient", "libqmiservices", "libhidlbase", "libandroid_net", "vendor.qti.hardware.data.cne.internal.api@1.0_vendor", "vendor.qti.hardware.data.cne.internal.constants@1.0_vendor", "vendor.qti.hardware.data.cne.internal.server@1.0_vendor", "vendor.qti.hardware.data.latency@1.0_vendor", "vendor.qti.data.factory@2.0_vendor", "vendor.qti.data.factory@2.1_vendor", "vendor.qti.data.factory@2.2_vendor", "vendor.qti.data.factory@2.3_vendor", "vendor.qti.latency@2.0_vendor", "vendor.qti.latency@2.1_vendor", "vendor.qti.hardware.mwqemadapter@1.0_vendor", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
