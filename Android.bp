@@ -2444,7 +2444,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqcompostprocbundle",
+	name: "libqcompostprocbundle_vendor",
+	stem: "libqcompostprocbundle",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2466,7 +2467,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqcomvisualizer",
+	name: "libqcomvisualizer_vendor",
+	stem: "libqcomvisualizer",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -2488,7 +2490,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libqcomvoiceprocessing",
+	name: "libqcomvoiceprocessing_vendor",
+	stem: "libqcomvoiceprocessing",
 	owner: "xiaomi",
 	strip: {
 		none: true,

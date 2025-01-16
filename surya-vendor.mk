@@ -423,9 +423,9 @@ PRODUCT_PACKAGES += \
     libwfdhdcpcp \
     libasphere \
     libmisoundfx \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
+    libqcompostprocbundle_vendor \
+    libqcomvisualizer_vendor \
+    libqcomvoiceprocessing_vendor \
     libshoebox \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
