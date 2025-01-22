@@ -313,11 +313,8 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0 \
     vendor.xiaomi.hardware.misys@3.0 \
     vendor.xiaomi.hardware.misys@4.0 \
-    android.hardware.camera.provider@2.4-external \
-    android.hardware.camera.provider@2.4-legacy \
     btaudio_offload_if \
     android.hardware.bluetooth@1.0-impl-qti \
-    android.hardware.camera.provider@2.4-impl \
     audio.bluetooth_qti.default \
     audio.primary.sm6150 \
     com.dsi.ant@1.0-impl \
@@ -429,8 +426,6 @@ PRODUCT_PACKAGES += \
     libshoebox \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
-    vendor.qti.hardware.camera.device@1.0_vendor \
-    vendor.qti.hardware.camera.device@3.5_vendor \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0 \
@@ -471,14 +466,6 @@ PRODUCT_PACKAGES += \
     libqcvirt \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
     android.hardware.secure_element@1.0-impl \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-external-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-external-impl \
-    camera.device@3.5-impl \
-    camera.device@3.6-external-impl \
     com.qti.sensor.ofilm_hi259 \
     com.qti.sensor.ofilm_imx682 \
     com.qti.sensor.ofilm_ov02b1b \
@@ -876,7 +863,6 @@ PRODUCT_PACKAGES += \
     dspservice \
     embmsslServer \
     android.hardware.bluetooth@1.0-service-qti \
-    android.hardware.camera.provider@2.4-service_64 \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@4.1-service-qti \
