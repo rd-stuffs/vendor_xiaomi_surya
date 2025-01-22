@@ -465,6 +465,7 @@ PRODUCT_PACKAGES += \
     libqcreverb \
     libqcvirt \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
+    android.hardware.camera.provider@2.4-legacy \
     android.hardware.secure_element@1.0-impl \
     com.qti.sensor.ofilm_hi259 \
     com.qti.sensor.ofilm_imx682 \
@@ -744,6 +745,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.hardware.cacert@1.0 \
+    vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.constants@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.server@1.0_vendor \
