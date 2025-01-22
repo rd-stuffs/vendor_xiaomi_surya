@@ -745,7 +745,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.esepowermanager@1.0 \
     vendor.qti.esepowermanager@1.1 \
     vendor.qti.hardware.cacert@1.0 \
-    vendor.qti.hardware.camera.device@1.0 \
+    vendor.qti.hardware.camera.device@1.0_vendor \
     vendor.qti.hardware.camera.device@3.5 \
     vendor.qti.hardware.data.cne.internal.api@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.constants@1.0_vendor \
