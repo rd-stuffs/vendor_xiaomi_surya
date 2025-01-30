@@ -314,6 +314,12 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@3.0 \
     vendor.xiaomi.hardware.misys@4.0 \
     btaudio_offload_if \
+    eglSubDriverAndroid \
+    libEGL_adreno \
+    libGLESv1_CM_adreno \
+    libGLESv2_adreno \
+    libq3dtools_adreno \
+    libq3dtools_esx \
     android.hardware.bluetooth@1.0-impl-qti \
     audio.bluetooth_qti.default \
     audio.primary.sm6150 \
@@ -329,6 +335,9 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.misys@2.0-impl \
     vendor.xiaomi.hardware.misys@3.0-impl \
     vendor.xiaomi.hardware.misys@4.0-impl \
+    vulkan.adreno \
+    libC2D2 \
+    libCB \
     libGPreqcancel_svc \
     libI420colorconvert \
     libOmxAacDec \
@@ -340,12 +349,16 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Dec \
     libOmxVpp \
     libOmxWmaDec \
+    libOpenCL \
     libQSEEComAPI \
+    libVkLayer_q3dtools \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
     libacdbrtac \
     libadiertac \
+    libadreno_app_profiles \
+    libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
     libaudcal \
@@ -358,6 +371,7 @@ PRODUCT_PACKAGES += \
     libbluetooth_audio_session_qti_2_1 \
     libbt-hidlclient \
     libbtnv \
+    libc2d30_bltlib \
     libcamera_nn_stub \
     libcamxfdalgov7 \
     libcamxfdalgov8 \
@@ -374,6 +388,8 @@ PRODUCT_PACKAGES += \
     libdiag \
     libdsutils \
     libexthwplugin \
+    libgpudataproducer \
+    libgsl \
     libhdcp1prov \
     libhdcp2p2prov \
     libhdcpsrm \
@@ -381,6 +397,8 @@ PRODUCT_PACKAGES += \
     libhdmipassthru \
     libhfp \
     libidl \
+    libllvm-glnext \
+    libllvm-qcom \
     liblogwrap_vendor \
     libmdmdetect \
     libmdsprpc \
@@ -389,6 +407,7 @@ PRODUCT_PACKAGES += \
     libmm-color-convertor \
     libmm-hdcpmgr \
     libmmosal_vendor \
+    libpvr \
     libqcbor \
     libqcci_legacy \
     libqdi \
@@ -670,7 +689,6 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
-    libpvr \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
@@ -915,3 +933,11 @@ PRODUCT_PACKAGES += \
     wfdhdcphalservice \
     wfdvndservice \
     wifidisplayhalservice
+
+PRODUCT_PACKAGES += \
+    libEGL_adreno_libEGL_adreno_symlink32 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink32 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink32 \
+    libEGL_adreno_libEGL_adreno_symlink64 \
+    libGLESv2_adreno_libGLESv2_adreno_symlink64 \
+    libq3dtools_adreno_libq3dtools_adreno_symlink64
